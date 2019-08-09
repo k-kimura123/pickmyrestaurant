@@ -4,7 +4,7 @@ function getInput(){
     sessionStorage.setItem("MaxPrice",document.getElementById("price").value);
     sessionStorage.setItem("Rating",document.getElementById("rating").value);
     sessionStorage.setItem("Distance",document.getElementById("distance").value*1000);
-    window.location.href="MapAndArray.html";
+    window.location.href="yourRestaurants.html";
 }
 
 
